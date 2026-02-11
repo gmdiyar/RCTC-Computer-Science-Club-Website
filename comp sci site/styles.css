@@ -1,0 +1,95 @@
+/* font stuff */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+/* Sting on the top right of the screen */
+#sting {
+    position: fixed;
+    right: 0;
+    top: 80px;
+    height: 50vh;
+    width: auto;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 20%;
+}
+
+/* Navbar */
+
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 60px;
+}
+#logo {
+    height: 70px;
+    width: auto;
+    position: absolute;
+    left: 15px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 60px;
+}
+
+a {
+    color: #0f2c52;
+    font-size: 28px;
+    font-weight:300;
+}
+
+/* Intro */
+
+#intro {
+    color: rgb(50, 57, 116);
+    max-width: 70rem;
+    margin: 1rem 0 4rem 2rem;
+    padding: 1.5rem; 
+    border: 4px double rgb(141, 141, 141);
+    border-radius: 2rem;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* Calendar */
+
+.content-row {
+    display: flex;
+    gap: 2rem;
+    margin: 4rem 2rem 4rem 2rem;
+    align-items: flex-start;
+    max-width: 73.4rem;
+}
+
+#calendar{
+    max-width: 45rem;
+}
+
+#calendar-section {
+    flex-shrink: 0;
+}
+
+#right-paragraph {
+    color: rgb(50, 57, 116);
+    padding: 1.5rem; 
+    border: 5px double rgb(141, 141, 141);
+    border-radius: 2rem;
+    background-color: rgba(255, 255, 255, 0.95);
+}
