@@ -10,13 +10,13 @@
 /* Sting on the top right of the screen */
 #sting {
     position: fixed;
-    right: 0;
-    top: 80px;
-    height: 50vh;
+    right: 0px;
+    top: 28%;
+    height: 35%;
     width: auto;
     z-index: -1;
     pointer-events: none;
-    opacity: 20%;
+    opacity: 30%;
 }
 
 /* Navbar */
@@ -65,31 +65,43 @@ a {
 .intro-container{
     display: flex;
     text-align: center;
+    justify-content: center;
     overflow-wrap: break-word;
 }
 
 .intro-text {
-    color: rgb(50, 57, 116);
-    max-width: 70rem;
+    color: #ffd803;
+    max-width: 80%;
     margin: 1rem 0 4rem 2rem;
     padding: 1.5rem; 
     border: 4px double rgb(141, 141, 141);
     border-radius: 2rem;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color:#0f2c52;
 }
 
 /* Main content div */
 .main {
+    margin-left: 250px;
     display: block;
     align-items: center;
     padding: 100px;
+}
+
+/* Left column */
+.left-column{
+    position: fixed;
+    left: 0;
+    top: 60px;
+    background-color: #0f2c52;
+    width: 250px;
+    height: 100%;
 }
 
 /* Main page photo carousel*/
   .carousel {
     position: relative;
     height: 500px;
-    max-width: 700px;
+    max-width: 1000px;
     margin: 40px auto;
     overflow: hidden;
     border-radius: 12px;
@@ -104,9 +116,7 @@ a {
   .photo {
     min-width: 100%;
     height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    object-fit: cover;
     color: white;
     font-size: 2rem;
     box-sizing: border-box;
