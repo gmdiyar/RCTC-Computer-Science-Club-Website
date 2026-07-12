@@ -91,10 +91,33 @@ a {
 .left-column{
     position: fixed;
     left: 0;
-    top: 60px;
+    top: 80px;
     background-color: #0f2c52;
     width: 250px;
-    height: 100%;
+    height: 92%;
+    scroll-behavior: smooth;
+    overflow-y: auto;
+}
+
+.left-item{
+    align-items: center;
+    font-size: 25px;
+    color: #ffffff;
+    padding: 1.5rem;
+}
+
+.left-list{
+    list-style: inside;
+    padding-top: 5px;
+    padding-left: 1rem;
+    display: block;
+}
+
+.left-list-item{
+    color: #ffd803;
+    font-size: 18px;
+    overflow-wrap: break-word;
+    padding: 5px;
 }
 
 /* Main page photo carousel*/
