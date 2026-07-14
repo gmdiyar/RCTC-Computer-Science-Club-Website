@@ -15,10 +15,10 @@ html, body{
 /* Sting on the top right of the screen */
 #sting {
     position: fixed;
-    right: 0px;
-    top: 28%;
-    height: 35%;
-    width: auto;
+    width: 500px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-35%, -40%);
     z-index: -1;
     pointer-events: none;
     opacity: 100%;
