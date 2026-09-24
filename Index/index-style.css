@@ -95,7 +95,7 @@ a {
 
 /* Middle content div */
 .main-middle{
-    background-color: rgba(15, 44, 82, 0.1); 
+    background-color: rgba(255, 255, 255, 0.027); 
     margin-left: 200px;
     height: 950px;
     max-height: 950px;
@@ -114,6 +114,36 @@ a {
     padding: 1.5rem; 
     border-radius: 2rem;
     background-color: #ffffff;
+}
+.links {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    position: ;
+    bottom: 0;
+}
+.github {
+    border-radius: 20%;
+    background-color: #ffd903b7;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 50px;
+    text-decoration: underline;
+}
+
+.official-site {
+    border-radius: 20%;
+    line-height: 50px;
+    background-color: #ffd903b7;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: underline;
 }
 
 /* Left column */
@@ -149,6 +179,24 @@ a {
     padding: 5px;
 }
 
+.column-link {
+    font-size: 19px;
+    color: white;
+    text-decoration: underline;
+}
+
+.column-detail-text {
+    font-size: 15px;
+    padding-left: 9px;
+    width: 150px;
+}
+
+.column-seperator {
+    background-color: white;
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 1px;
+}
 /* Main page photo carousel*/
   .carousel {
     position: relative;
@@ -177,6 +225,7 @@ a {
   .carousel-btn {
     position: absolute;
     top: 50%;
+    width: 45px;
     transform: translateY(-50%);
     background: rgba(0,0,0,0.4);
     color: white;
